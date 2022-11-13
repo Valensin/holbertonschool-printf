@@ -1,4 +1,4 @@
-.TH _PRINTF 3 "November 2022" " " "Holberton Project C - _printf"
+.TH _PRINTF 3 "November 2022" "1st Edition""My holberton Project C - _printf"
 
 .SH NAME
 .B _printf\fR \- formatted output conversion
@@ -52,7 +52,7 @@ respectively, is prepended for non-zero numbers.
 .RS
 .B ''
 .in +2n
-(space) A blank is left before a postive number or empty string produced by a 
+(space) A blank is left before a positive number or empty string produced by a 
 signed conversion.
 .in
 .RE
@@ -216,8 +216,7 @@ Code such as \fB_printf(\fIfoo\fB);\fR possibly indicates a bug, since
 \fIfoo\fR may contain a % character.
 
 .SH EXAMPLE
-To print the address of the White house in the form "1600 Pennsylvania Avenue NW, Washington, DC 20500", 
-followed by a new line, where \fIstreet\fR, \fIcity\fR, 
+To print the address of WHite House in the form "1600 Pennsylvania Avenue NW, Washington, DC 20500", followed by a new line, where \fIstreet\fR, \fIcity\fR, 
 and \fIstate\fR are pointers to strings:
 
 .RS
@@ -227,13 +226,13 @@ int main(void)
 
 {
 
-	char *street = "Ocean park";
+	char *street = "Ocean park.";
 
 	char *city = "San Juan",
 
 	char *state = "PR";
 
-	printf("%d %s, %s, %s, %d\\n", 000911, street, city, state,);
+	printf("%d %s, %s, %s, %d\\n", 000, street, city, state, 00911);
 
 }
 .RE
